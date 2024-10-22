@@ -4,8 +4,8 @@ import pickle
 from sklearn.preprocessing import StandardScaler
 
 # Load the Ridge model and scaler
-ridge = pickle.load(open('project/models/ridge.pkl', 'rb'))
-scaler = pickle.load(open('project/models/scaler.pkl', 'rb'))
+ridge = pickle.load(open('ridge.pkl', 'rb'))
+scaler = pickle.load(open('scaler.pkl', 'rb'))
 
 # Streamlit application
 st.title("Data Prediction App")
